@@ -42,12 +42,12 @@ def add_person():
     db.session.commit()
     return jsonify(new_person.to_json()), 201
 
-
+''
 # GET
 @app.route('/api', methods=['GET'])
 def read_all():
     people = Person.query.all()
-    return jsonify([pessoa.to_json() for pessoa in people])  # Correto!
+    return jsonify([pessoa.to_json() for pessoa in people])
 
 
 @app.route('/api/<int:id>', methods = ['GET'])
