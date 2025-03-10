@@ -62,40 +62,21 @@
         }
     </style>
 </head>
-<body>
 
-    <div class="container">
-        <h2>Cadastro de Leads</h2>
-        <form id="leadForm">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" required>
+<div class="container">
+    <h2>Cadastro de Leads</h2>
+    <form id="leadForm">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
 
-            <label for="proposta">Proposta:</label>
-            <input type="text" id="proposta" required>
+        <label for="proposta">Proposta:</label>
+        <input type="text" id="proposta" required>
 
-            <button type="submit">Cadastrar</button>
-        </form>
-
-        <div class="lead-list">
-            <h2>Leads Registrados</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>ID</th>
-                        <th>Nome</th>
-                        <th>Email</th>
-                        <th>Proposta</th>
-                    </tr>
-                </thead>
-                <tbody id="leadTableBody">
-                    <!-- Os leads serão carregados aqui -->
-                </tbody>
-            </table>
-        </div>
-    </div>
+        <button type="submit">Cadastrar</button>
+    </form>
 
     <script>
         document.getElementById("leadForm").addEventListener("submit", async function(event) {
@@ -136,9 +117,6 @@
             });
         }
 
-        // Carrega os leads ao abrir a página
-        loadLeads();
     </script>
 
-</body>
 </html>
