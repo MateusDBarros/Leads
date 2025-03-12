@@ -1,4 +1,4 @@
-# Lead Management System
+# Lead Management System 
 
 A simple web application for managing leads using **Flask** (Python) for the backend and **HTML/CSS/JavaScript** for the frontend.
 
