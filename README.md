@@ -22,7 +22,7 @@ Antes de rodar o projeto, siga os passos abaixo para configurar o ambiente:
 ## 1️⃣ Clonar o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/chatbot-leads.git
+git clone https://github.com/MateusDBarros/chatbot-leads.git
 cd chatbot-leads
 ```
 
